@@ -12,9 +12,11 @@ namespace mamalia
 {
     public partial class Form6 : Form
     {
+        sapi sa = new sapi();
         public Form6()
         {
             InitializeComponent();
+            label1.Text = sa.makan();
         }
 
         private void button1_Click(object sender, EventArgs e)
