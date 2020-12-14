@@ -23,5 +23,24 @@ namespace mamalia
             form3.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+            if (radioButton1.Checked)
+            {
+                Form6 form6 = new Form6();
+                form6.Show();
+                this.Hide();
+
+            }
+            else
+            {
+                Form7 form7 = new Form7();
+                form7.Show();
+                this.Hide();
+
+            }
+        }
     }
 }
